@@ -12,7 +12,7 @@ export const authMe = async (req, res) => {
     console.error("Lỗi khi gọi authMe", error);
     return res.status(500).json({ message: "Lỗi hệ thống" });
   }
-};
+}; 
 
 export const searchUserByUsername = async (req, res) => {
   try {
